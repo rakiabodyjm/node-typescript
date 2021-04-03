@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\JM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\JM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\JM\AppData\Local\Microsoft\WindowsApps;C:\Users\JM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JM\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\JM\AppData\Local\Yarn\Cache\v6\npm-prettier-2.2.1-795a1a78dd52f073da0cd42b21f9c91381923ff5-integrity\node_modules\prettier\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "typescript-node-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node build/index.js",
+      "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
+      "build": "tsc",
+      "watch": "tsc -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@typescript-eslint/eslint-plugin": "^4.20.0"
+    },
+    "devDependencies": {
+      "@typescript-eslint/parser": "^4.20.0",
+      "eslint": "^7.23.0",
+      "eslint-config-prettier": "^8.1.0",
+      "eslint-plugin-prettier": "^3.3.1",
+      "prettier": "^2.2.1",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.2.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
