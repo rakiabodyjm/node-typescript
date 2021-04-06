@@ -8,5 +8,5 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["@typescript-eslint/eslint-plugin"],
-  "ignorePatterns": ["**/build/*.js"]
+  "ignorePatterns": ["**/build/**/*.js"]
 }

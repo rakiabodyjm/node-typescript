@@ -14,7 +14,7 @@ ffmpeg('../movies/Teen.Titans.Go!.To.The.Movies.2018.1080p.WEBRip.x264-[YTS.AM].
     '-hls_list_size 0',
     '-f hls',
   ])
-  .output('/videos/teentitans.m3u8')
+  .output('videos/teentitans.m3u8')
   .on('end', () => {
     console.log('end bitch')
   })
